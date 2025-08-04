@@ -1,5 +1,11 @@
 cmake_minimum_required (VERSION 3.8)
 project (ros2_cpp)
+
+# 设置默认构建类型
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug)
+endif()
+
 add_executable(ros2_cpp_node ros2_cpp_node.cpp)
 # 查找rclcpp头文件和库文件的路径
 find_package(rclcpp REQUIRED) 

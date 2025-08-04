@@ -3,4 +3,5 @@
     "python.analysis.extraPaths": [
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
+    // "cmake.sourceDirectory": "/home/mxy/robot/fishbot/ros2bookcode/chapt2",
  }
