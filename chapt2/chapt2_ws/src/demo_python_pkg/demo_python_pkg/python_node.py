@@ -7,3 +7,7 @@ def main():
     node.get_logger().info('你好 Python 节点！')
     rclpy.spin(node)
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+    
